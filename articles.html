@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Yayınlarımız - YMM VEDAT ENDER TUNA - </title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+          rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic"
+          rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<div class="brand">DR. VEDAT ENDER TUNA</div>
+<div class="address-bar">Yeminli Mali Müşavir</div>
+
+<!-- Navigation -->
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+            <a class="navbar-brand" href="index.html">DR. VEDAT ENDER TUNA</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="index.html">Ana Sayfa</a>
+                </li>
+                <li>
+                    <a href="about.html">Hakkımızda</a>
+                </li>
+                <li>
+                    <a href="team.html">Kadromuz</a>
+                </li>
+                <li>
+                    <a href="services.html">Hizmetlerimiz</a>
+                </li>
+                <li>
+                    <a href="articles.html">Yayınlarımız</a>
+                </li>
+                <li>
+                    <a href="contact.html">İletişim / İnsan Kaynakları</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="box panel-default row article-list" style="margin-top: 10px">
+                <!-- Default panel contents -->
+                <h3>Uluslararası ve Ulusal Makaleler</h3>
+
+                <!-- Table -->
+                <!-- ngRepeat: article in articles -->
+                <table ng-repeat="article in articles" class="table ng-scope">
+                    <tbody>
+                    <tr>
+                        <td style="width: 30px"><i class="icon-file-text pull-left icon-2x red"></i></td>
+                        <td style="width: 760px"><h5 ng-bind="article.name">İstanbul Menkul Kıymetler Borsası’nda
+                            Sistematik Risk: Geleneksel Beta Katsayısına Karşı Aşağı Yönlü Beta Katsayısı</h5></td>
+                        <td style="width: 200px"><h6 ng-bind="article.date">Gazi Üni. İsarder, Mart 2013</h6></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <!-- end ngRepeat: article in articles -->
+                <table ng-repeat="article in articles" class="table ng-scope">
+                    <tbody>
+                    <tr>
+                        <td style="width: 30px"><i class="icon-file-text pull-left icon-2x red"></i></td>
+                        <td style="width: 760px"><h5 ng-bind="article.name">Yıllara Yaygın İnşaat ve Onarım İşlerinin
+                            Vergi mevzuatı ve TMS 11 İnşaat Sözleşmeleri Standardı Kapsamında İncelenmesi ve
+                            Muhasebeleştirilmesi</h5></td>
+                        <td style="width: 200px"><h6 ng-bind="article.date">Diyalog Dergisi, Mart 2012</h6></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <!-- end ngRepeat: article in articles -->
+                <table ng-repeat="article in articles" class="table ng-scope">
+                    <tbody>
+                    <tr>
+                        <td style="width: 30px"><i class="icon-file-text pull-left icon-2x red"></i></td>
+                        <td style="width: 760px"><h5 ng-bind="article.name">ÖTV Kanununa Ekli (I) Sayılı Listenin (B)
+                            Cetvelinde Yer Alan Malların Aynı Cetveldeki Diğer Malların İmalatında Kullanılması Halinde
+                            ÖTV Uygulaması</h5></td>
+                        <td style="width: 200px"><h6 ng-bind="article.date">Diyalog Dergisi, Şubat 2012</h6></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <!-- end ngRepeat: article in articles -->
+                <table ng-repeat="article in articles" class="table ng-scope">
+                    <tbody>
+                    <tr>
+                        <td style="width: 30px"><i class="icon-file-text pull-left icon-2x red"></i></td>
+                        <td style="width: 760px"><h5 ng-bind="article.name">Maliyet Bedeli İle Değerlenen Maddi Duran
+                            Varlıklarda Değer Düşüklüğü Kavramının TMS-36 Varlıklarda Değer Düşüklüğü Standardı İle
+                            Vergi Usul Kanunu’na Göre İncelenmesi ve Muhasebeleştirilmesi</h5></td>
+                        <td style="width: 200px"><h6 ng-bind="article.date">E-Yaklaşım Dergisi, Yıl 19, Sayı
+                            217.(2011)</h6></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <!-- end ngRepeat: article in articles -->
+                <table ng-repeat="article in articles" class="table ng-scope">
+                    <tbody>
+                    <tr>
+                        <td style="width: 30px"><i class="icon-file-text pull-left icon-2x red"></i></td>
+                        <td style="width: 760px"><h5 ng-bind="article.name">Otomotiv Sektöründe İthal Edilen İlk Dolum
+                            Yakıtlarında ÖTV</h5></td>
+                        <td style="width: 200px"><h6 ng-bind="article.date">Vergi Raporu, Yıl 19, Sayı 138, ss.
+                            100-104.(2011)</h6></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <!-- end ngRepeat: article in articles -->
+                <table ng-repeat="article in articles" class="table ng-scope">
+                    <tbody>
+                    <tr>
+                        <td style="width: 30px"><i class="icon-file-text pull-left icon-2x red"></i></td>
+                        <td style="width: 760px"><h5 ng-bind="article.name">Portföy Seçiminde Riski Sevmeyen
+                            Yatırımcılar İçin Hisse Senedinin Ait Olduğu Sektör Ve İlgili Firmanın Kuruluş Tarihi Önemli
+                            midir? İstanbul Menkul Kıymetler Borsası’nda Sektörel Bir Analiz</h5></td>
+                        <td style="width: 200px"><h6 ng-bind="article.date">Finans Politik ve Ekonomik Yorumlar Dergisi,
+                            Cilt 48, Sayı 558, ss. 23-34 (2011)</h6></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <!-- end ngRepeat: article in articles -->
+                <table ng-repeat="article in articles" class="table ng-scope">
+                    <tbody>
+                    <tr>
+                        <td style="width: 30px"><i class="icon-file-text pull-left icon-2x red"></i></td>
+                        <td style="width: 760px"><h5 ng-bind="article.name">Uluslar arası Hisse Senedi Piyasaları
+                            Arasındaki Nedensellik İlişkisi: Türkiye, Yunanistan ve Amerika Üzerine Ampirik Bir
+                            Uygulama</h5></td>
+                        <td style="width: 200px"><h6 ng-bind="article.date">Azerbaycan Vergiler Bakanlığı Vergi
+                            Haberleri Dergisi (2011)</h6></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <!-- end ngRepeat: article in articles -->
+                <table ng-repeat="article in articles" class="table ng-scope">
+                    <tbody>
+                    <tr>
+                        <td style="width: 30px"><i class="icon-file-text pull-left icon-2x red"></i></td>
+                        <td style="width: 760px"><h5 ng-bind="article.name">Özel Maliyet Bedelinin Amortismanı</h5></td>
+                        <td style="width: 200px"><h6 ng-bind="article.date">E-Yaklaşım Dergisi, Yıl 13, Sayı
+                            20.(2005)</h6></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <!-- end ngRepeat: article in articles -->
+                <table ng-repeat="article in articles" class="table ng-scope">
+                    <tbody>
+                    <tr>
+                        <td style="width: 30px"><i class="icon-file-text pull-left icon-2x red"></i></td>
+                        <td style="width: 760px"><h5 ng-bind="article.name">Özel Maliyet Bedelinin
+                            Muhasebeleştirilmesi</h5></td>
+                        <td style="width: 200px"><h6 ng-bind="article.date">Lebib Yalkın Mevzuat Dergisi, (2005)</h6>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <!-- end ngRepeat: article in articles -->
+                <table ng-repeat="article in articles" class="table ng-scope">
+                    <tbody>
+                    <tr>
+                        <td style="width: 30px"><i class="icon-file-text pull-left icon-2x red"></i></td>
+                        <td style="width: 760px"><h5 ng-bind="article.name">Kuyumculuk Sektöründe KDV Uygulaması</h5>
+                        </td>
+                        <td style="width: 200px"><h6 ng-bind="article.date">Maliye Postası Dergisi,15.08.2005,
+                            s,599</h6></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <!-- end ngRepeat: article in articles -->
+            </div>
+            <div class="box panel-default row article-list" style="margin-top: 10px">
+                <!-- Default panel contents -->
+                <h3>Uluslararası Kongre ve Konferanslar</h3>
+
+                <!-- Table -->
+                <!-- ngRepeat: conference in conferences -->
+                <table ng-repeat="conference in conferences" class="table ng-scope">
+                    <tbody>
+                    <tr>
+                        <td style="width: 30px"><i class="icon-file-text pull-left icon-2x red"></i></td>
+                        <td style="width: 760px"><h5 ng-bind="conference.name">Yatırımcı Tercihlerine Göre Oluşturulan
+                            Portföylerin Performans Değerlendirmesi: Minimum Varyanslı, Eşit Ağırlıklı ve Piyasa
+                            Portföyü Uygulaması</h5></td>
+                        <td style="width: 200px" class="col-sm-2"><h6 ng-bind="conference.date">Dokuzuncu Uluslararası
+                            Türk Dünyası Sosyal Bilimler Kongresi, Azerbaycan.(2011)</h6></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <!-- end ngRepeat: conference in conferences -->
+                <table ng-repeat="conference in conferences" class="table ng-scope">
+                    <tbody>
+                    <tr>
+                        <td style="width: 30px"><i class="icon-file-text pull-left icon-2x red"></i></td>
+                        <td style="width: 760px"><h5 ng-bind="conference.name">Gelişen Menkul Kıymet Piyasalarındaki
+                            Portföy Çeşitlendirmesi: FEAS Üyesi Borsalarda Karşılaştırmalı Bir Analiz</h5></td>
+                        <td style="width: 200px" class="col-sm-2"><h6 ng-bind="conference.date">3. Uluslar arası
+                            Balkanlarda Sosyal Bilimler Kongresi, Saraybosna(2011)</h6></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <!-- end ngRepeat: conference in conferences -->
+                <table ng-repeat="conference in conferences" class="table ng-scope">
+                    <tbody>
+                    <tr>
+                        <td style="width: 30px"><i class="icon-file-text pull-left icon-2x red"></i></td>
+                        <td style="width: 760px"><h5 ng-bind="conference.name">Cointegratıon Relation On Investors’
+                            Portfolio Choice At European Fınancial Markets: An Application For Turkey And Greece</h5>
+                        </td>
+                        <td style="width: 200px" class="col-sm-2"><h6 ng-bind="conference.date">Economic Theory, Policy
+                            &amp; Applications 6th Annual International Symposium, Athens.(2011)</h6></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <!-- end ngRepeat: conference in conferences -->
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<!-- /.container -->
+<footer>
+    <div class="container">
+
+        <div class="row" style="margin: 8px">
+            <div class="col-lg-12 text-center">
+                <tr>
+                    <td><a target="_blank"
+                           href="https://intvd.gib.gov.tr/internetvd/template.jsp?page=IVD_MBBS_SORGU_LOGIN_AC">Vergi
+                        Borcu Sorgulama </a></td>
+                    |
+                    <td><a href="https://tckimlik.nvi.gov.tr/">TC Kimlik No Sorgulama </a></td>
+                    |
+                    <td><a target="_blank" href="https://intvd.gib.gov.tr/internetvd/index.jsp">Gelir Vergisi
+                        Hesaplama </a></td>
+                    |
+                    <td><a target="_blank" href="http://www.muhasebeyazilari.com/bilgi2/tcno.php">TC Kimlik No
+                        Sorgulama</a></td>
+                    |
+                    <td><a target="_blank" href="http://www.muhasebeyazilari.com/bilgi2/internetvergidairesi.php">İnternet
+                        Vergi Dairesi</a></td>
+                    |
+                    <td><a target="_blank"
+                           href="http://www.muhasebeyazilari.com/bilgi2/dilekcematik.php">Dilekçematik</a></td>
+                    |
+                    <td><a target="_blank" href="http://www.izsmmmo.org.tr/kdv/kdv.asp">KDV Sorgulama</a></td>
+                    |
+                    <td><a target="_blank" href="http://www.muhasebeyazilari.com/bilgi2/ebeyanname.php">E-Beyanname</a>
+                    </td>
+                    |
+                    <td><a target="_blank" href="https://ebildirge.sgk.gov.tr/WPEB/amp/loginldap">E-Bildirge</a></td>
+                </tr>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+
+                <tr>
+                    <td><a href="http://www.muhasebeyazilari.com/bilgi2/devletteskilativeritabani.php"
+                           target="_blank"><img src="img/footer_icons/01.png" alt=""></a></td>
+                    <td width="10"></td>
+                    <td><a href="http://www.muhasebeyazilari.com/bilgi2/mevzuatbilgisistemi.php"
+                           target="_blank"><img src="img/footer_icons/02.png" alt=""></a></td>
+                    <td width="10"></td>
+                    <td><a href="http://www.muhasebeyazilari.com/bilgi2/resmigazete.php"
+                           target="_blank"><img src="img/footer_icons/03.png" alt=""></a></td>
+                    <td width="10"></td>
+                    <td><a href="http://www.muhasebeyazilari.com/bilgi2/earsiv.php" target="_blank"><img
+                            src="img/footer_icons/04.png" alt=""></a></td>
+                    <td width="10"></td>
+                    <td><a href="http://www.muhasebeyazilari.com/bilgi2/egenelge.php" target="_blank"><img
+                            src="img/footer_icons/05.png" alt=""></a></td>
+                    <td width="10"></td>
+                    <td><a href="http://www.muhasebeyazilari.com/bilgi2/ekutuphane.php" target="_blank"><img
+                            src="img/footer_icons/06.png" alt=""></a></td>
+                    <td width="10"></td>
+                    <td><a href="http://www.turkiye.gov.tr" target="_blank"><img
+                            src="img/footer_icons/07.png" alt=""></a></td>
+                    <td width="10"></td>
+                    <td><a href="http://www.sgk.gov.tr" target="_blank"><img src="img/footer_icons/08.png"
+                                                                             alt=""></a></td>
+                    <td width="10"></td>
+                    <td><a href="http://www.maliye.gov.tr" target="_blank"><img
+                            src="img/footer_icons/09.png" alt=""></a></td>
+                    <td width="10"></td>
+                    <td><a href="http://www.gib.gov.tr" target="_blank"><img src="img/footer_icons/10.png"
+                                                                             alt=""></a></td>
+                </tr>
+
+            </div>
+        </div>
+
+
+        <div class="clearfix"></div>
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <p>Copyright &copy; vedatendertuna.com</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
