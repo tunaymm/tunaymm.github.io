@@ -79,6 +79,7 @@
     <!-- /.container -->
 </nav>
 
+
 <div class='container'>
 
     <div class='row'>
@@ -92,14 +93,11 @@
             </div>
             <div class='col-md-8'>
                 <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
-                <iframe width='100%' height='400px' frameborder='0' scrolling='no' marginheight='0' marginwidth='0'
-                        src='https://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;oe=UTF8&amp;msa=0&amp;msid=206507628772909410477.0004ed0edc256e37d02ee&amp;ll=40.772581,30.391751&amp;spn=0,0&amp;t=h&amp;output=embed'></iframe>
+<!--                <iframe -->
+<!--                        src='https://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;oe=UTF8&amp;msa=0&amp;msid=206507628772909410477.0004ed0edc256e37d02ee&amp;ll=40.772581,30.391751&amp;spn=0,0&amp;t=h&amp;output=embed'></iframe>-->
+
+                <iframe width='100%' height='400px' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.5168363515972!2d30.389233415678607!3d40.77265044183931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ccb32842cf14bf%3A0xf8ab9d2ae55fa68d!2sVedat%20Ender%20TUNA%20YMM!5e0!3m2!1str!2str!4v1609102824993!5m2!1str!2str" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 <br/>
-                <small><a
-                        href='https://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;oe=UTF8&amp;msa=0&amp;msid=206507628772909410477.0004ed0edc256e37d02ee&amp;ll=40.772581,30.391751&amp;spn=0,0&amp;t=h&amp;source=embed'
-                        style='color:#0000FF;text-align:left'>Vedat Ender Tuna Yeminli Mali Müşavirlik Bürosu</a> 'nu
-                    daha büyük haritada görüntüle
-                </small>
 
             </div>
             <div class='col-sm-4 right'>
@@ -107,7 +105,7 @@
                 <h4>Yeminli Mali Müşavirlik Bürosu</h4>
 
                 <p>
-                    Semerciler mah. Yalım sok. No:1 Daire:2<br>
+                    Semerciler mah. Yalım sok. No:4 Daire:<br>
                     Adapazarı / SAKARYA 54050<br>
                 </p>
 
@@ -122,6 +120,9 @@
                 </p>
 
                 <p><i class='glyphicon glyphicon-time'></i> <abbr title='Hours'></abbr>: Cumartesi: 9:00 - 12:00</p>
+<!--                </p>-->
+
+<!--                <p><i class='glyphicon glyphicon-time'></i> <abbr title='Hours'></abbr>: Cumartesi: 9:00 - 12:00</p>-->
                 <!--<ul class='list-unstyled list-inline list-social-icons'>-->
                 <!--<li class='tooltip-social facebook-link'><a href='#facebook-page' data-toggle='tooltip'-->
                 <!--data-placement='top' title='Facebook'><i-->
@@ -140,71 +141,7 @@
             <div class='clearfix'></div>
         </div>
     </div>
-
-    <div class='row'>
-        <div class='box'>
-            <div class='col-lg-12'>
-                <hr>
-                <h2 class='intro-text text-center'>
-                    <strong>İş Başvuru Formu</strong>
-                </h2>
-                <hr>
-                <p>Lütfen aşağıdaki formu eksiksiz doldurunuz. Hazırlamış olduğunuz özgeçmişinizi de ekleyerek
-                    gönderiniz.</p>
-
-                <form onsubmit="return prepareMessage()">
-
-                    <div class="form-group">
-                        <label for="userName">İsim</label>
-                        <input title="Lütfen isminizi giriniz." type="text" class="form-control" id="userName"
-                               placeholder="İsim" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="userEmail">E-posta</label>
-                        <input required title="Lütfen e-posta adresinizi giriniz." type="email" class="form-control"
-                               id="userEmail" placeholder="E-posta">
-                    </div>
-                    <div class="form-group">
-                        <label for="userPhone">Telefon</label>
-                        <input required title='Lütfen telefon numaranızı giriniz.' type="tel" class="form-control"
-                               id="userPhone" placeholder="Telefon">
-                    </div>
-                    <div class="form-group">
-                        <label for="userMessage">Önyazı</label>
-                        <textarea rows="5" maxlength="300" required title="Lütfen önyazı giriniz." type="text"
-                                  class="form-control" id="userMessage" placeholder="Önyazı"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <h4>Özgeçmiş</h4>
-
-                        <div class="input-group">
-                            <span class="input-group-btn">
-                                <span class="btn btn-primary btn-file">
-                                    Seç&hellip; <input required title="Lütfen özgeçmişinizi ekleyiniz." id="fileInput"
-                                                       type="file">
-                                </span>
-                            </span>
-                            <input type="text" class="form-control" readonly>
-                        </div>
-                    </div>
-                    <div class="checkbox">
-                        <label>
-                            <input required title="Lütfen başvurunuzu onaylayınız." id="userAgree" type="checkbox">
-                            Gönderimi onaylıyorum.
-                        </label>
-                    </div>
-                    <button id='loadingButton' class="hide btn btn-lg btn-warning"><span
-                            class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span> Bekleyiniz ...
-                    </button>
-                    <div style="text-align: center">
-                        <button type="button" onclick="prepareMessage()" class="btn btn-success">Gönder</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
 </div>
-
 </div>
 
 <script>
